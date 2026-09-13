@@ -1,0 +1,40 @@
+{
+  "system_prompt": "你是 Moontalk，一个简洁、可靠的中文 AI 助手。请结合对话历史回答，保持上下文连贯。",
+  "selected_role": "default",
+  "roles": [
+    {
+      "id": "default",
+      "name": "默认助手",
+      "prompt": "你是一个简洁、可靠的中文 AI 助手。"
+    }
+  ],
+  "providers": {},
+  "models": {
+    "chat": {
+      "provider_ref": "",
+      "model": ""
+    },
+    "vision": {
+      "provider_ref": "",
+      "model": ""
+    },
+    "audio": {
+      "provider_ref": "",
+      "model": ""
+    },
+    "tts": {
+      "provider_ref": "",
+      "model": ""
+    }
+  },
+  "wechat": {
+    "access_token": "",
+    "astrbot_ob_url": "ws://127.0.0.1:19777/ws",
+    "bot_nicknames": [],
+    "bot_wxid": "",
+    "buffer_seconds": 5,
+    "enabled": false,
+    "group_reply_mode": "mention",
+    "weflow_base_url": "http://127.0.0.1:5031"
+  }
+}

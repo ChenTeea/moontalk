@@ -1,0 +1,7 @@
+Flask>=3.0
+flask-cors>=4.0
+requests>=2.31
+PyYAML>=6.0
+pywebview>=5.0
+uiautomation>=2.0.18
+pyperclip>=1.8.2
